@@ -19,7 +19,7 @@ const genelateList = () => {
 
 	let markedList = defaultList
 
-	for (var i = 0; i < document.form1.userName.length; i++) {
+	for (let i=0; i<document.form1.userName.length; i++) {
 		if (document.form1.userName[i].checked) {
 			markedList[i] = 0
 		}
