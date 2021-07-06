@@ -25,9 +25,9 @@ const genelateList = () => {
 		}
 	}
 
-	const removedList = markedList.filter(userName => userName != 0)
+	const list = markedList.filter(userName => userName != 0)
 
-	return removedList
+	return list
 }
 
 const listRandomizer = (list) => {
@@ -49,8 +49,6 @@ const splitList = (list, group) => {
 	let sizeRemainder = list.length % group
 
 	let splitList = []
-	let bocchi
-	let bocchiFlag
 
 	for (let i=0; i<group; i++){
 		splitList[i] = []
