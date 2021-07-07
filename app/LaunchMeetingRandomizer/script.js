@@ -1,5 +1,8 @@
 'use strict'
 
+
+//array.from()を使った実装の方がいいかも？
+//こちらでlist持つ必要もないかも
 const genelateList = () => {
 
 	const defaultList = [
